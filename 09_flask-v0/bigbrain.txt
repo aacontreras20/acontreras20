@@ -13,8 +13,14 @@ It is also used in web adresses to indicate the path of a page.
 Q2: Where will this print to? Q3: What will it print?
 This will print to the terminal. It will print the app variable because it is initialized using '_name_'?
 
+The URL for the webpage it produces is printed to the terminal. 
+
+
 Q3: Will this appear anywhere? How u know?
 It will not appear anywhere because the print method is not used and the function is not called again.
 
+It appears on the locally hosted webpage.
+
 Q4: Where have you seen similar construcs in other languages?
+In some other languages like Java, code is compiled then run. 
 
