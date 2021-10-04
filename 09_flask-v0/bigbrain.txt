@@ -1,0 +1,7 @@
+Mery mages 
+SoftDev
+K<nn> -- <Title/Topic/Summary... (Aim for concision, brevity, CLARITY. Write to your future self...)>
+<yyyy>-<mm>-<dd>
+
+Note: Angle brackets (<>) denote a field. Replace them with the indicated info.
+(e.g., Replace "<mm>" with "09" for September).
