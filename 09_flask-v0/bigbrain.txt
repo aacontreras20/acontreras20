@@ -1,6 +1,6 @@
 Merry Mages - Aaron Contreras, Sadid Ethun, Fred, Chester
 SoftDev
-K09 -- Simple Path to Greatness/Flask app/
+K09 -- Simple Path to Greatness/Flask app/ran an app in a venv using flask
 2021-10-03
 
 Q0: Where have you seen similar syntax in other langs?
