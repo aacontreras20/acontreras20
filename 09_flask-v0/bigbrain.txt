@@ -1,7 +1,20 @@
-Mery mages 
+Merry Mages - Aaron Contreras, Sadid Ethun, Fred, Chester
 SoftDev
-K<nn> -- <Title/Topic/Summary... (Aim for concision, brevity, CLARITY. Write to your future self...)>
-<yyyy>-<mm>-<dd>
+K09 -- Simple Path to Greatness/Flask app/
+2021-10-03
 
-Note: Angle brackets (<>) denote a field. Replace them with the indicated info.
-(e.g., Replace "<mm>" with "09" for September).
+Q0: Where have you seen similar syntax in other langs?
+This is similar to how objects are initialized in Java.
+
+Q1: What points of reference do you have for meaning of '/'?
+'/' is used in the paths of directories. It separates different folders and files. 
+It is also used in web adresses to indicate the path of a page. 
+
+Q2: Where will this print to? Q3: What will it print?
+This will print to the terminal. It will print the app variable because it is initialized using '_name_'?
+
+Q3: Will this appear anywhere? How u know?
+It will not appear anywhere because the print method is not used and the function is not called again.
+
+Q4: Where have you seen similar construcs in other languages?
+
