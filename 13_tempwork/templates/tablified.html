@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+  A.W.E.some: Ella Krechmer, Aaron Contreras, William Chen
+  SoftDev
+  Oct 2021
+ -->
+
+<html>
+
+  <head>
+    <title> {{ title }} </title>
+    <h2>A.W.E.some: Ella Krechmer, Aaron Contreras, William Chen</h2>
+  </head>
+
+  <body>
+  <table>
+    <tr>
+      <th>Job Class</th>
+      <th>Percentage</th>
+    </tr>
+    {% for key,value in collection.items() %}
+      <tr>
+        <td>{{key}}</td>
+        <td>{{value}}</td>
+      </tr>
+    {% endfor %}
+      </table>
+     <br>
+  </body>
+
+</html>

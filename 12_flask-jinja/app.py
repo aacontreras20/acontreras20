@@ -1,6 +1,7 @@
-# Clyde 'Thluffy' Sinclair
+# ubun3: Shyne Choi, Aaron Contreras, Sadid Ethun
 # SoftDev
-# Oct 2021
+# K12 -- ...or The Only Constant is Change / Flask Jinja
+# 2021-10-07
 
 from flask import Flask, render_template #Q0: What happens if you remove render_template from this line?
 app = Flask(__name__)
