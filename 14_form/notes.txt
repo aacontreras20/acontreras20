@@ -12,4 +12,3 @@ Comments:
 - the request method command will return the type of method used to take the data, which is by default GET. 
 
 - the request.args[] function is part of jinja and can be put directly into the HTML without passing it through the python.
-
