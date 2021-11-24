@@ -1,14 +1,19 @@
-# secure bathtub: Aaron Contreras, Alejandro Alonso
+# Secure Bathtub: Alejandro Alonso, Aaron Contreras
 # SoftDev
 # K19 -- A RESTful journey skyward / API flaskwork
-# 2021-10-05
+# 2021-11-23
+
 import urllib.request, json
 
 from flask import Flask, render_template
 app = Flask(__name__) #create instance of class Flask
 
-with urllib.request.urlopen('https://api.nasa.gov/planetary/apod?api_key=4x0Ai69ML3zpXNaVs0sN7g5Rrxf2gQQmVOtmTtKp') as response:
-   html = response.read()
+with open("19_api/key_nasa.txt", "r") as keyfile:
+    key = keyfile.readline()
+    key = key if key else "4x0Ai69ML3zpXNaVs0sN7g5Rrxf2gQQmVOtmTtKp"
+
+with urllib.request.urlopen(f"https://api.nasa.gov/planetary/apod?api_key={key}") as response:
+    html = response.read()
 
 dic = json.loads(html)
 
