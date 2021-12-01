@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--  
+  Secure Bathtub: Alejandro Alonso, Aaron Contreras
+  SoftDev
+  K22 -- Who Does Frame Work For?
+  2021-11-30
+
+  basic html file to showcase the uses of a FD framework
+
+-->
+<html>
+<head>
+  <title>Our Website </title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.css" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="large">
+    <button class="menu-icon" type="button" data-toggle="main-nav"></button>
+    <div class="title-bar-title">Menu</div>
+  </div>
+  
+  <div class="top-bar" id="main-nav"> <!--This is the id that the button above refers to in the data-toggle parameter. The button effectively activates this div-->
+    <div class="top-bar-left">
+      <ul class="vertical medium-horizontal dropdown menu">
+        <li class="menu-text">Secure Bathtubs</li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>    
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><input type="search" placeholder="Search"></li>
+        <li><button type="button" class="button">Search</button></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="callout large primary">
+    <div class="text-center">
+      <h2>Secure Bathtubs: Aaron Contreras & Alejandro Alonso</h2>
+    </div>
+  </div>
+
+<h3>Accordion menus:</h3>
+  <ul class="accordion" data-accordion>
+    <li class="accordion-item " data-accordion-item>
+      <a href="#" class="accordion-title">Accordion-title</a>
+  
+      
+      <div class="accordion-content" data-tab-content>
+        <p>Hello</p>
+      </div>
+    </li>
+  </ul>
+  
+  <div class="card" style="width: 300px;">
+    <div class="card-divider">
+      card-divider: this is pretty huch the heading of the card
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/AcetoFive.JPG">
+    <div class="card-section">
+      <h4>This is the card-section</h4>
+      <p>It is the text of the card.</p>
+    </div>
+  </div>
+
+  <h3>Button stuff:</h3>
+  <a class="button tiny" href="#">Tiny</a>
+ 
+ 
+  <a class="button large" href="#">Large</a>
+  
+  <a class="button small expanded" href="#">Small Expanded</a>
+  <a class="button large expanded" href="#">large Expanded</a>
+
+  <a class="button hollow" href="#">hollow</a>
+  <a class="button clear " href="#">clear</a>
+
+  <h4> Button Groups:</h4>
+  <div class="button-group">
+    <a class="button">One</a>
+    <a class="button">Two</a>
+    <a class="button">Three</a>
+  </div>
+
+  <h4> Switches:</h4>
+  <div class="switch">
+    <input class="switch-input" id="exampleSwitch" type="checkbox" name="exampleSwitch">
+    <label class="switch-paddle" for="exampleSwitch">
+      <span class="show-for-sr">Download Kittens</span>
+    </label>
+  </div>
+
+  <h3>Progress Bar:</h3>
+  <div class="secondary progress" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100"><!--These values don't change how progress bar is displayed, but they can be passed to python if information is requested-->
+    <div class="progress-meter" style="width: 25%"></div>
+  </div>
+
+  
+
+</body>
+
+</html>
