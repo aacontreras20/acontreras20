@@ -1,0 +1,9 @@
+Deven, Batman, Fred & Aaron provisioning droplets
+
+
+
+
+Notes:
+- never login as root to a remote machine
+- configure SSH keys eventually (initially, use pw to get on-board)
+- ubuntu 20.04.3
