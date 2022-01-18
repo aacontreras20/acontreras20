@@ -15,22 +15,21 @@ Allows us to host websites and other apps on easily accessible virtual servers.
 
 ### Extra:
 
-1. Initial Server Setup `ssh root@137.184.27.115`
+1. Initial Server Setup `ssh root@<ip address of droplet>`
 2. Create new user `adduser <user>`
 3. admin priviliges `usermod -aG sudo <user>`
-4. firewall `ufw app list`
-5. enable firewall 
+4. enable firewall 
 `ufw allow OpenSSH`
 `ufw enable`
 
-6. enabling access for regular user, creating new terminal session
+5. enabling access for regular user, creating new terminal session
 `ssh <user>@your_server_ip`
 
-7. Installing lamp
+6. Installing lamp
 `sudo apt update`
 `sudo apt install apache2`
 
-8. Allow traffic 
+7. Allow traffic 
 `sudo ufw app list`
 `sudo ufw allow "Apache Full"`
 
