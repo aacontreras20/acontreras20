@@ -17,7 +17,7 @@ Allows us to host websites and other apps on easily accessible virtual servers.
 1. Verify apache is working by visiting servers public ip address in browser `http://your_server_ip`
 
 2. Install and enable mod_wsgi to enable Apache to serve Flask applications
-- to Install run `sudo apt-get install libapache2-mod-wsgi python-dev`
+- to Install run `sudo apt-get install libapache2-mod-wsgi-py3`
 - to enable run `sudo a2enmod wsgi`
 
 
