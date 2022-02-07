@@ -1,18 +1,18 @@
-Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon
+Team Caffinated Kangaroos :: Aaron Contreras, David Chong
 SoftDev pd0
 K27 -- Basic functions in JavaScript
-2022-02-03r
+2022-02-03
 
 DISCO
 -----------------------------------------------------------------
-* Ooooh, ___
-* Aaah-haa!  ____...
+We didnt really understand how the js worked, but realizing that you can flip the function and function name made 
+it extremely helpful.
+
 =================================================================
 
 QCC
 -----------------------------------------------------------------
-* Why...?
-* Huh?
-* Whuh now?
+We still dont understand the arrow key syntax, but we do not see a way in which 
+it would be more useful than the function calling itself.
 =================================================================
 

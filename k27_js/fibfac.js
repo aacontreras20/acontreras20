@@ -1,7 +1,7 @@
-// Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon 
-// SoftDev pd0
-// K27 -- Basic functions in JavaScript
-// 2022-02-03r
+// Team Caffinated Kangaroos :: Aaron Contreras, David Chong
+//SoftDev pd0
+//K27 -- Basic functions in JavaScript
+//2022-02-03
 // --------------------------------------------------
 
 
@@ -12,21 +12,19 @@
 
 //Do whatever you think is needed. Think: S I M P L E.   Think: S M A R T.
 
-var x = function fact(n){
-    if (n ==1){
-        return 1
-    }
-    else{
-        return fact(n-1) * n
+fact = function (n){
+    if(n == 1){
+        return 1;
+    }else{
+        return(n * factorial(n-1));
     }
 }
 
-var y = function fib(n){
-    if (n <= 1){
-        return n
-    }
-    else {
-        return fib(n-1) + fib(n-2)
+function fib(n){
+    if(n <= 1){
+        return n;
+    }else{
+        return (fib(n-1) + fib(n-2))
     }
 }
 
