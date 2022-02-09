@@ -16,7 +16,7 @@ fact = function (n){
     if(n == 1){
         return 1;
     }else{
-        return(n * factorial(n-1));
+        return(n * fact(n-1));
     }
 }
 
@@ -28,5 +28,5 @@ function fib(n){
     }
 }
 
-
+console.log(fact(5))
 

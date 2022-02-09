@@ -18,10 +18,10 @@
    (delete this block comment once you are done)
 */
 
-// Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon 
-// SoftDev pd0
-// K28 -- Getting more comfortable with the dev console and the DOM
-// 2022-02-08t
+// Team Caffinated Kangaroos :: Aaron Contreras, David Chong
+//SoftDev pd0
+//K28 -- DOMFoolery
+//2022-02-08
 // --------------------------------------------------
 
 
@@ -66,8 +66,9 @@ var removeItem = function(n) {
 };
 
 
-var red = function() {
-  var items = document.getElementsByTagName("li");
+var red = function() {//only updates elements without class
+  var items = document.getElementsByTagName("li");//is collection
+  console.log(items)
   for(var i = 0; i < items.length; i++) {
     items[i].classList.add('red');
   }
@@ -87,5 +88,38 @@ var stripe = function() {
 
 //insert your implementations here for...
 // FIB
+function fib(n){
+  if(n <= 1){
+      return n;
+  }else{
+      return (fib(n-1) + fib)
+  }
+}
 // FAC
+factorial = function(n){
+  if(n == 1){
+      return 1;
+  }else{
+      return(n * factorial(n-1));
+  }
+}
 // GCD
+gcd = function(a, b){
+  smallest = a;
+  if(a > b){
+      smallest = b;
+  }
+  // console.log("smallest is " + smallest);
+  for(let i = smallest; i >= 1; i--){
+      // console.log("i is " + i);
+      // console.log("a % i is " + a%i)
+      // console.log("b % i is " + b%i)
+      if(a % i == 0 && b % i == 0){
+          return i;
+      }
+  }
+}
+
+addItem("The GCD of 1280 and 146 is " + gcd(1280,146));
+
+
