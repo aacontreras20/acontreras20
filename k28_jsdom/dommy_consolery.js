@@ -120,6 +120,6 @@ gcd = function(a, b){
   }
 }
 
-addItem("The GCD of 1280 and 146 is " + gcd(1280,146));
+addItem("The GCD of 1280 and 146 is " + gcd(64,48));
 
 
