@@ -29,6 +29,6 @@ var draw = function(e){
 
 
 var bToggler = document.getElementById("buttonToggle") ;
-bToggler.addEventListener("click", toggleMode());
+bToggler.addEventListener("click", toggleMode);
 var clearB = document.getElementById("buttonClear") ;
-clearB.addEventListener("click", wipeCanvas());
+clearB.addEventListener("click", wipeCanvas);

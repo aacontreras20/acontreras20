@@ -9,17 +9,17 @@
 
 
 //access canvas and buttons via DOM
-var c = document.getElementById("sla
+var c = document.getElementById("playground");
 var dotButton = document.getElementById("buttonCircle");
-var stopButton = document.getElementById("buttonCircle");
+var stopButton = document.getElementById("buttonStop");
 
 //prepare to interact with canvas in 2D
 var ctx = c.getContext("2d");
 
 //set fill color to team color
-ctx.fillStyle = // YOUR CODE HERE
+ctx.fillStyle = "#42c2f5"; // YOUR CODE HERE
 
-var requestID; //t global var for use with animation frames
+var requestID = 10; //t global var for use with animation frames
 
 
 //var clear = function(e) {
@@ -35,9 +35,20 @@ var growing = true;
 
 
 //var drawDot = function() {
-var drawDot = () => {
+var drawDot = (e) => {
+  window.cancelAnimationFrame(drawDot)
   console.log("drawDot invoked...")
+  console.log(requestID)
   clear();
+  ctx.beginPath();
+  ctx.arc(250, 250, requestID, 0, 2 * Math.PI, false);
+  ctx.stroke();
+  ctx.fill()
+  requestID++
+  if(requestID <= 100){
+  window.requestAnimationFrame(drawDot(requestID));
+  
+  }
   // YOUR CODE H
 
   /*
@@ -59,6 +70,7 @@ var drawDot = () => {
 var stopIt = () => {
   console.log("stopIt invoked...")
   console.log( requestID );
+  window.cancelAnimationFrame(drawDot)
 
   // YOUR CODE HERE
   /*
