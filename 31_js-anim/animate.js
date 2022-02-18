@@ -25,7 +25,7 @@ var requestID; //t global var for use with animation frames
 //var clear = function(e) {
 var clear = (e) => {
   console.log("clear invoked...")
-  ctx.clearRect(0, 0, c.clientWidth, c.height)
+  ctx.clearRect(0, 0, c.width, c.height)
   
 };
 
@@ -35,7 +35,7 @@ var growing = true;
 
 //var drawDot = function() {
 var drawDot = (e) => {
-  stop();
+  //stop();
   clear();
   window.cancelAnimationFrame(requestID);
   console.log("drawDot invoked...");
